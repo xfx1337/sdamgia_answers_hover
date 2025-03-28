@@ -1,0 +1,17 @@
+{
+    "name": "РЕШУЕГЭ Окно ответа",
+    "description": "Показывает ответы на решуегэ при наведении мыши на id задания",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "main.html"
+    },
+    "background": {
+        "service_worker": "back.js",
+        "script": ["jquery.js"]
+    },
+    "permissions": ["scripting", "webNavigation", "storage", "activeTab"],
+    "host_permissions": ["https://*.sdamgia.ru/*"]
+}
+  
+  
